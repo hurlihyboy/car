@@ -1,0 +1,99 @@
+/* Styles related to sound and music playback functionality */
+@import 'sections/sound.css';
+
+/* Styles related to location, speed and the "night mode" UI */
+@import 'sections/location.css';
+
+@font-face {
+  font-family: 'Audiowide';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/css/fonts/audiowide.woff2') format('woff2'),
+       url('/css/fonts/audiowide.ttf') format('truetype');;
+}
+
+.body-element {
+	background-color: #FFF;
+}
+
+.heading-text {
+  padding-top: 10px;
+  padding-bottom: 10px;  
+	font-size: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #645f5f;  
+  font-weight: bold;  
+  text-rendering: optimizeLegibility;  		
+}
+
+.menu-icon {
+  color: #fff;
+}
+
+.small-text {
+  font-size: 12px;
+}
+
+/*--- Start heading bar related styles ---*/
+.bar-heading {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 55px;     
+}
+/*--- End heading bar related styles ---*/
+
+.pane-background {
+	background: url('../img/background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;	
+}
+
+.aside-open [menu-toggle] {
+  display: none;
+}
+
+.side-menu {
+	background-color: #000;
+	border-right: 2px #000 solid;
+}
+
+.pad-column {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.page-heading {
+  background-color: #000 !important;
+  color: #ccc;
+  width: 100%;
+}
+
+.page-heading .title {
+  font-size: 18px;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;  
+  text-rendering: optimizeLegibility;   
+  color: #ccc !important;
+}
+
+.weather-outlook {
+  line-height: 25px;
+}
+
+.center{
+  text-align:center;
+}
+
+/* Ionic Framework fixes for raspi pi screen */
+a.item-content {
+  margin: 1px;
+}
+
+.card {
+  padding-top: 0px !important;
+}
+
+.item {
+  margin: 0px !important;
+}

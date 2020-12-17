@@ -1,0 +1,80 @@
+/**
+* Styles relating to the location / speed and "night mode" functionality
+*/
+
+.angular-google-map-container { 
+  height: 300px; 
+}
+
+.gps-data {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.speed-data {
+  padding-top: 10px;
+  font-size: 40px;
+  font-family: "Audiowide", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-align: center;
+}
+
+.speed-data .current-speed {
+  font-size: 70px;
+}
+
+.speed-data .speed-unit {
+  font-size: 20px;
+}
+
+.warn-speed {
+  color: #FC1745;
+}
+
+/* Start style definitions related to night mode */
+
+.night-speed-limit {
+  font-size: 15px;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.night-mode-theme {
+  background-color: #000;
+  padding-left:10px;
+  color: #ccc;
+  overflow-y: hidden;
+  overflow-x: hidden; 
+}
+
+.night-mode-theme .item{
+  background-color: #000;
+  padding-left:10px;
+  color: #ccc;
+}
+
+.night-mode-theme .speed-data .current-speed {
+  font-size: 150px;
+  padding-bottom: 60px;
+}
+
+.night-mode-theme .gps-status{
+  background-color: #000;
+  text-align: center;
+}
+
+.night-mode-theme .exit-night {
+  padding-top: 10px;
+}
+
+.night-mode {
+  padding-top: 5px;
+}
+
+.night-wrap {
+  padding: 0px;
+  background-color: #000 !important;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0)!important;
+  border-radius: 0px !important;
+}
+
+/* End night mode related styles */

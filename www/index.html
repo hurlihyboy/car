@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Nomadic Pi Car Computer</title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/notifications/angular-growl.css" rel="stylesheet">    
+    <link href="css/notifications/bootstrap.min.css" rel="stylesheet">  
+
+    <script src="lib/mpd.js"></script>
+    <script src="lib/websockify/websock.js"></script>
+    <script src="lib/websockify/util.js"></script>    
+    <script src="lib/websockify/base64.js"></script> 
+
+    <!-- ionic/angularjs js -->   
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- Application javascript files -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+
+    <!-- Application services -->    
+    <script src="js/services/sound.js"></script> 
+    <script src="js/services/gps.js"></script>       
+    <script src="js/services/weather.js"></script>
+    <script src="js/services/content-formatting.js"></script>         
+
+    <!-- Start the external dependencies-->
+    <script src="lib/elif.js"></script>
+    <script src="lib/imgcache.js"></script> 
+    <script src="lib/angular-imgcache.js"></script>
+    <script src="lib/angular-growl.min.js"></script>  
+    <script src="lib/fullscreen.min.js"></script> 
+
+    <!-- Misc required libraries -->
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script src="lib/lodash.js"></script>
+    <script src="lib/angular-google-maps.min.js"></script>  
+    <script src="lib/angular-simple-logger.js"></script>                                       
+  </head>
+
+  <body ng-app="carcomputer">
+    <ion-nav-view></ion-nav-view>
+
+    <script type="text/javascript">
+        function openExternal(elem) {
+            window.open(elem.href, "_system");
+            return false; // Prevent execution of the default onClick handler 
+        }      
+    </script>        
+  </body>
+</html>

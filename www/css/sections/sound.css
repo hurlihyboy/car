@@ -1,0 +1,51 @@
+/**
+*
+* Styles related to sound and music playback functionality
+*
+*/
+.album-art {
+	padding: 0px 10px 15px 10px;
+}
+
+.song-album {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.track-details {
+	margin-left: 5px;
+}
+
+.track-details h2{
+	margin-left: -3px;
+}
+
+.now-playing-image {
+  padding: 20px;
+}
+
+.track-play-time {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.standby-loading {
+	min-height: 150px;
+	text-align: center;
+	background: url("../../img/loading.gif") no-repeat;
+	background-position: center 80%;
+	padding: 20px;
+}
+
+.file-index {
+	text-align: center;
+}
+
+.file-index-button {
+	margin: 5px;
+}
+
+.no-playlists {
+	text-align: center;
+	padding: 10px 0px 20px 0px;
+}
